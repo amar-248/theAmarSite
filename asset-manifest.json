@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/theAmarSite/static/css/main.073c9b0a.css",
+    "main.js": "/theAmarSite/static/js/main.a7f114b5.js",
+    "static/js/787.7ca8d973.chunk.js": "/theAmarSite/static/js/787.7ca8d973.chunk.js",
+    "index.html": "/theAmarSite/index.html",
+    "main.073c9b0a.css.map": "/theAmarSite/static/css/main.073c9b0a.css.map",
+    "main.a7f114b5.js.map": "/theAmarSite/static/js/main.a7f114b5.js.map",
+    "787.7ca8d973.chunk.js.map": "/theAmarSite/static/js/787.7ca8d973.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a7f114b5.js"
+  ]
+}
