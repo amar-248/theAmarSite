@@ -1,0 +1,76 @@
+.contentBox {
+  height: 160px;
+  color: "#fff";
+  line-height: 160px;
+  text-align: center;
+  background-color: red;
+  border: 1px solid;
+}
+
+.inner-text {
+  font-size: 2.5em;
+  line-height: 1.5em;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+
+  color: #2c3e50;
+}
+
+.outer-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.intro-desc-container {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  position: relative;
+  left: 10%;
+}
+
+.name-header {
+  font-family: "Inter", "Arial";
+  color: #ffffff;
+  font-size: 400%;
+  line-height: 1.1;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-weight: bold;
+}
+
+.desc-header {
+  font-family: "Inter", "Arial";
+  color: #a6b1bb;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.year-no {
+  font-family: "Inter", "Arial";
+  color: ghostwhite;
+  font-size: 400%;
+  line-height: 1;
+  font-weight: normal;
+  font-weight: bold;
+  position: relative;
+  top: 34px;
+}
+.year-desc {
+  font-family: "Inter", "Arial";
+  color: #a6b1bb;
+  font-size: 112.5%;
+  text-shadow: none;
+  line-height: 1.5;
+  top: 34px;
+  position: relative;
+  font-weight: 600;
+}
