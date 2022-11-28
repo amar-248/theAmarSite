@@ -1,16 +1,19 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Button, DatePicker } from "antd";
-import "./App.css";
+import "./App.scss";
 import Banner from "./Components/bannerContainer/banner";
 import DescriptionBox from "./Components/descriptionContainer/descriptionBox";
+import GridLayout from "./Components/gridContainer/gridContainer";
+import MainFooter from "./Components/mainFooter/mainFooter";
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <header className="App-header" style={{ fontWeight: 30 }}>
         <Banner />
         <DescriptionBox />
+        <GridLayout />
+        <MainFooter/>
       </header>
     </div>
   );

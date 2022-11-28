@@ -1,0 +1,28 @@
+.description-box-container {
+  padding: 20px 10px 20px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.description-container {
+  color: #394753;
+  font-size: 120%;
+  line-height: 2;
+  font-weight: 600;
+}
+
+@keyframes drop-in {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.box {
+  animation: drop-in 5000ms;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}

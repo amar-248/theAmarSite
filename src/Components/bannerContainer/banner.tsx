@@ -1,5 +1,6 @@
-import "./banner.css";
+import "./banner.scss";
 import { bannerImg, laptopImg } from "../../Constant";
+import React from "react";
 
 const Banner = () => {
   return (
@@ -15,10 +16,11 @@ const Banner = () => {
             <div className="year-desc">Years of Experience</div>
           </div>
         </div>
-
         <img src={bannerImg} alt="Error Working" />
-
-        <img src={laptopImg} alt="Error Working" />
+        <div className="element"></div>
+        <img src={laptopImg} alt="Error Working">
+        </img>
+        
       </div>
     </div>
   );

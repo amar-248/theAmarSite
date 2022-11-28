@@ -1,0 +1,67 @@
+.main-footer-container {
+  height: 100%;
+  color: azure;
+  padding: 5%;
+  background-image: linear-gradient(to top, #2f4770 0%, #08263b 100%);
+
+  .disclaimer {
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+  }
+  .footer-container-sub {
+    display: flex;
+  }
+  .btn-conent {
+    float: right;
+  }
+
+  .footer-intro {
+    width: 50%;
+  }
+  .form-container {
+    width: 50%;
+    .ant-form-horizontal .ant-form-item-control {
+      max-width: 100%;
+    }
+    .ant-form-item-explain-error {
+      display: none;
+    }
+    .ant-btn-primary {
+      border-color: #ffff;
+      background: darkcyan;
+      border-radius: 40px;
+      padding: 15px;
+      line-height: 0px;
+      letter-spacing: 1px;
+    }
+    .ant-input {
+      border-radius: 20px;
+      padding: 0.5em;
+    }
+  }
+  .icons-display {
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    padding-left: 5%;
+  }
+  .contents-display {
+    .ant-list-item {
+      display: block;
+      color: azure;
+    }
+    .ant-list-item-meta-title > a,
+    .ant-list-item-meta-description {
+      color: azure;
+    }
+
+    .mailto {
+      padding: 0.1em 0em 0em 3.4em;
+    }
+  }
+}
